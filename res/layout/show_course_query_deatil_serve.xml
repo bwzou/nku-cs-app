@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg_list_1">
+    
+     <LinearLayout     
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"
+    	android:layout_marginLeft="3dp">
+      <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/scqd_coursecode_title" />
+       <TextView
+        android:id="@+id/scqd_coursecode"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+        
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="22dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/scqd_courseteachername_title" />
+       <TextView
+        android:id="@+id/scqd_courseteachername"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+   </LinearLayout>
+   <!-- 课程名称 -->
+     <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"  	
+    	android:layout_marginLeft="3dp">
+      <TextView        
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/scqd_coursename_title" />
+       <TextView
+        android:id="@+id/scqd_coursename"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+      </LinearLayout>
+   
+   <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"
+    	android:layout_marginLeft="3dp">
+      <TextView
+          
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/scqd_coursebeginendweek_title" />
+       <TextView
+        android:id="@+id/scqd_coursebeginendweek"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+        
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="22dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/scqd_courseweekday_title" />
+       <TextView
+        android:id="@+id/scqd_courseweekday"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        />
+   </LinearLayout>
+   
+   <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"  	
+    	android:layout_marginLeft="3dp">
+      <TextView        
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/scqd_coursetime_title" />
+       <TextView
+        android:id="@+id/scqd_coursetime"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+             
+        <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="22dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/scqd_coursetype_title" />
+       <TextView
+        android:id="@+id/scqd_coursetype"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+   </LinearLayout>
+   <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"  	
+    	android:layout_marginLeft="3dp">
+      <TextView        
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/scqd_courseroom_title" />
+       <TextView
+        android:id="@+id/scqd_courseroom"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+      </LinearLayout>
+
+    
+
+</LinearLayout>

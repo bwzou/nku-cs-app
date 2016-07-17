@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ChooseCourseActivity"
+    android:background="@drawable/page1_bg"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+    <EditText 
+        android:id="@+id/choose_course_course_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/page1_login_input"
+            android:hint="@string/choose_course_e_coursecode"
+            android:inputType="number"
+            android:layout_weight="2"
+            />
+    <CheckBox 
+        android:id="@+id/choose_course_c_resel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/choose_course_c_resel"/>
+     <CheckBox 
+         android:id="@+id/choose_course_c_fuxiu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/choose_course_c_fuxiu"/>
+    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/choose_course_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_course_b_select"
+            android:layout_weight="1"
+            android:onClick="gotoselect"/>
+        <Button 
+            android:id="@+id/choose_course_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_course_b_cancel"
+            android:layout_weight="1"
+            android:onClick="gotocancel"/>
+        <Button 
+            android:id="@+id/choose_course_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_course_b_query"
+            android:layout_weight="1"
+            android:onClick="gotoquery"/>
+        <Button 
+            android:id="@+id/choose_course_rob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_course_b_rob"
+            android:layout_weight="1"
+            android:onClick="gotograb"/>
+        
+    </LinearLayout>
+    
+     <ListView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/choosecourse_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp"
+        android:listSelector="@drawable/actions_item_selector"
+        >
+        </ListView>
+
+</LinearLayout>

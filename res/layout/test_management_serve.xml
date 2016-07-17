@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_list_1" >
+   <!--   <TextView
+        android:id="@+id/test_course_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E90FF"
+        android:textSize="25sp"
+        android:gravity="center"/>-->
+    
+       <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"
+    	
+    	android:layout_marginLeft="3dp">
+      <TextView
+          
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/test_course_name" />
+       <TextView
+        android:id="@+id/test_course_name"
+        
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+        
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="2dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/test_classroom" />
+       <TextView
+        android:id="@+id/test_calss_room"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+   </LinearLayout>
+   
+   <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"
+    	android:layout_marginLeft="3dp">
+      <TextView
+          
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/test_week" />
+       <TextView
+        android:id="@+id/test_week"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+        
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="22dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/test_week_day" />
+       <TextView
+        android:id="@+id/test_week_day"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        />
+   </LinearLayout>
+   
+   <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"  	
+    	android:layout_marginLeft="3dp">
+      <TextView        
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/test_begin_course" />
+       <TextView
+        android:id="@+id/test_begin_course"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+             
+        <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="22dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/test_end_course" />
+       <TextView
+        android:id="@+id/test_end_course"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+   </LinearLayout>
+   <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"  	
+    	android:layout_marginLeft="3dp">
+      <TextView        
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/test_begin_time" />
+       <TextView
+        android:id="@+id/test_begin_time"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+      </LinearLayout>
+<LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"  	
+    	android:layout_marginLeft="3dp">
+      <TextView        
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/test_end_time" />
+       <TextView
+        android:id="@+id/test_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+      </LinearLayout>
+    
+
+</LinearLayout>

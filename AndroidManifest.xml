@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.z"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.z.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.z.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.z.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.z.ShowGradeActivity"
+            android:label="@string/title_activity_show_grade" >
+        </activity>
+        <activity
+            android:name="com.z.StudiedActionActivity"
+            android:label="@string/title_activity_studied_action" >
+        </activity>
+        <activity
+            android:name="com.z.DevelopPlanActivity"
+            android:label="@string/title_activity_develop_plan" >
+        </activity>
+        <activity
+            android:name="com.z.InformationQueryActivity"
+            android:label="@string/title_activity_information_query" >
+        </activity>
+        <activity
+            android:name="com.z.CommentActivity"
+            android:label="@string/title_activity_comment" >
+        </activity>
+        <activity
+            android:name="com.z.ChangePWActivity"
+            android:label="@string/title_activity_change_pw" >
+        </activity>
+        <activity
+            android:name="com.z.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.z.SendEmailActivity"
+            android:label="@string/title_activity_send_email" >
+        </activity>
+        <activity
+            android:name="com.z.CourseSelectedDeatilActivity"
+            android:label="@string/title_activity_course_selected_deatil" >
+        </activity>
+        <activity
+            android:name="com.z.ChooseCourseActivity"
+            android:label="@string/title_activity_choose_course" >
+        </activity>
+        <activity
+            android:name="com.z.PreCourseTableActivity"
+            android:label="@string/title_activity_pre_course_table" >
+        </activity>
+        <activity
+            android:name="com.z.TestManagementActivity"
+            android:label="@string/title_activity_test_management" >
+        </activity>
+        <activity
+            android:name="com.z.QueryCourseTableActivity"
+            android:label="@string/title_activity_query_course_table" >
+        </activity>
+        <activity
+            android:name="com.z.ShowCourseQueryDetailActivity"
+            android:label="@string/title_activity_show_course_query_detail" >
+        </activity>
+        <activity
+            android:name="com.z.GrabCourseActivity"
+            android:label="@string/title_activity_grab_course" >
+        </activity>
+    </application>
+
+    <!-- 权限请求 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

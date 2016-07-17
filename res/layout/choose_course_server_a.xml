@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_list_1" >
+    
+    <LinearLayout     
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"
+    	android:layout_marginLeft="3dp">
+      <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/ccsa_choose_title" />
+       <TextView
+        android:id="@+id/ccsa_choose"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+        
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="22dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/ccsa_main_number_title" />
+       <TextView
+        android:id="@+id/ccsa_main_number"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+       </LinearLayout>
+       
+       <LinearLayout     
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"
+    	android:layout_marginLeft="3dp">
+      <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/ccsa_course_code_title" />
+       <TextView
+        android:id="@+id/ccsa_course_code"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+        
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="22dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/ccsa_credit_title" />
+       <TextView
+        android:id="@+id/ccsa_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+       </LinearLayout>
+       
+          <LinearLayout 
+        
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"	
+    	android:orientation="horizontal"
+    	android:layout_marginRight="3dp"  	
+    	android:layout_marginLeft="3dp">
+      <TextView        
+        android:layout_width="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+        android:text="@string/ccsa_course_name_title" />
+       <TextView
+        android:id="@+id/ccsa_course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="4dp"
+        android:textSize="12sp"
+        android:textColor="@color/White"
+         />
+      </LinearLayout>
+    
+
+</LinearLayout>

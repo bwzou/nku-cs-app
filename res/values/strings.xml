@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">选课系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="page1_title">SG-ERP</string>
+    <string name="page1_title_1">移　　　动　　　办　　　公</string>
+    <!-- 使用全角空格 -->
+    <string name="page1_login_userText">用户名:</string>
+    <string name="page1_login_userText_hint">请输入用户名</string>
+    <string name="page1_login_passwdText_hint">请输入密码</string>
+    <string name="page1_login_valid_hint">请输入验证码</string>
+    <string name="page1_login_right_image">＞</string>
+    <string name="page1_login_passwdText">密码:</string>
+    <string name="page1_login_valid">验证码:</string>
+    <string name="page1_logout_button">清　　除</string>
+    <string name="page1_login_button">网络设置</string>
+    <string name="page1_login_button1">登　　录</string>
+    <string name="page1_checbox_text1">记住我的密码</string>
+    <string name="page1_checbox_text2">自动登录</string>
+    <string name="page1_tex1">Power by　</string>
+    <string name="page1_tex2">SECRET-X</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <color name="White">#ffffff</color>
+
+    <string name="title_activity_third">ThirdActivity</string>
+
+    <!-- activiy -->
+
+
+    <!--  -->
+
+    <string name="title_activity_show_grade">ShowGradeActivity</string>
+    <string name="title_activity_studied_action">StudiedActionActivity</string>
+
+    <!-- ShowGradeActivity -->
+
+    <string name="coursename">课程名称：</string>
+    <string name="coursecode">课程代码：</string>
+    <string name="coursetype">课程类型：</string>
+    <string name="coursegrade">成　　绩：</string>
+    <string name="coursecredit">学　　分：</string>
+    <string name="courseretake">重修情况：</string>
+    <string name="courseretakegrade">重修成绩：</string>
+    <string name="title_activity_develop_plan">DevelopPlanActivity</string>
+    <string name="title_activity_information_query">InformationQueryActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_change_pw">ChangePWActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="change_passwd_old">原密码：</string>
+    <string name="change_passwd_old_text">请输入原密码</string>
+    <string name="change_passwd_new">现密码：</string>
+    <string name="change_passwd_new_text">请输入现密码</string>
+    <string name="change_passwd_new_valid">确认密码：</string>
+    <string name="change_passwd_new_valid_text">请再次输入</string>
+    <string name="change_passwd_ack">确定修改</string>
+    <string name="change_passwd_cancel">清　　除</string>
+
+    <!-- AboutUsActivity -->
+    <string name="about_us_Title">关于我们</string>
+    <string name="about_us_introduction">我们是南开大学软件学院2013级本科生邹博文，张彪，我们开发此软件的目的旨在方便大家的学习生活，感谢在开发过程中提供帮助的同学，老师，以及其他未知名字的人士。欢迎向我们提出意见。</string>
+    <string name="about_us_zou_phone">邹博文：15602112719</string>
+    <string name="about_us_zhang_phone">张彪：15522598067</string>
+    <string name="about_us_zou_email">邹博文：zoubowen@mail.nankai.edu.cn</string>
+    <string name="about_us_zhang_email">张彪：1204073452@qq.com</string>
+
+    <!-- sendmail -->
+    <string name="title_activity_send_email">SendEmailActivity</string>
+    <string name="title_activity_pre_course">PreCourseActivity</string>
+    <string name="title_activity_course_selected_deatil">CourseSelectedDeatilActivity</string>
+    <string name="title_activity_choose_course">ChooseCourseActivity</string>
+    <string name="title_activity_pre_course_table">PreCourseTableActivity</string>
+
+    <!-- SendEamilActivity -->
+    <string name="send_email_title">谢谢您的反馈</string>
+    <string name="send_email_your_address">你的邮箱:</string>
+    <string name="send_email_your_address_text">请输入你的邮箱地址</string>
+    <string name="send_email_context">请在这里输入反馈的内容</string>
+    <string name="send_email_b_ack">确认发送</string>
+    <string name="send_email_b_clean">清　　空</string>
+
+    <!-- choose_course_server -->
+    <string name="pre_course_name">课程名称：</string>
+    <string name="pre_course_credit">课程老师：</string>
+
+    <!-- ChooseCourseActivity -->
+    <string name="choose_course_e_coursecode">请输入课程编号</string>
+    <string name="choose_course_b_select">选课</string>
+    <string name="choose_course_c_resel">重修</string>
+    <string name="choose_course_c_fuxiu">辅修</string>
+    <string name="choose_course_b_cancel">退课</string>
+    <string name="choose_course_b_query">查课</string>
+    <string name="choose_course_b_rob">抢课</string>
+
+    <!-- CourseSelectedDetailActivity -->
+    <string name="course_selected_code">选课序号：</string>
+    <string name="course_selected_code_string">课程编号：</string>
+    <string name="course_selected_name">课程名称：</string>
+    <string name="course_selected_week_day">星　　期：</string>
+    <string name="course_selected_week_double_or_not">单双周：</string>
+    <string name="course_selected_class_room">教　　室：</string>
+    <string name="course_selected_teacher_code_string">教师编号：</string>
+    <string name="course_selected_teacher_name">教师姓名：</string>
+    <string name="course_selected_teaching_class">教学班级编号：</string>
+    <string name="course_selected_type">教学类型：</string>
+    <string name="course_selected_begin_week">开始周次：</string>
+    <string name="course_selected_end_week">结束周次：</string>
+    <string name="title_activity_test_management">TestManagementActivity</string>
+
+    <!-- TestManageMent -->
+    <string name="test_title">考试安排</string>
+
+    <!-- test_server -->
+    <string name="test_number">序号</string>
+    <string name="test_course_name">课程名称：</string>
+    <string name="test_course_type">教学类型：</string>
+    <string name="test_week">周　　次：</string>
+    <string name="test_week_day">星　　期：</string>
+    <string name="test_begin_course">开始节次：</string>
+    <string name="test_end_course">终止节次：</string>
+    <string name="test_classroom">考试教室：</string>
+    <string name="test_begin_time">开始时间：</string>
+    <string name="test_end_time">截止时间：</string>
+    <string name="title_activity_query_course_table">QueryCourseTableActivity</string>
+    <string name="title_activity_show_course_query_detail">ShowCourseQueryDetailActivity</string>
+
+    <!-- QueryCourseTable -->
+    <string name="query_course_table_title">课程查询</string>
+    <string name="qct_rt_select_number">选课序号</string>
+    <string name="qct_rt_select_name">课程名称</string>
+    <string name="qct_rt_select_teacher">任课教师</string>
+    <string name="qct_rt_select_unit">开课单位</string>
+    <string name="qct_bt_title">提交</string>
+    <string name="qct_edit_hint">请在这里输入内容</string>
+
+    <!-- show_course_query_detail_server -->
+    <string name="scqd_coursecode_title">选课序号：</string>
+    <string name="scqd_coursename_title">课程名称：</string>
+    <string name="scqd_courseteachername_title">教师姓名：</string>
+    <string name="scqd_coursetype_title">授课方式：</string>
+    <string name="scqd_courseweekday_title">开课周次：</string>
+    <string name="scqd_coursetime_title">开课时间：</string>
+    <string name="scqd_coursebeginendweek_title">起止周次：</string>
+    <string name="scqd_courseroom_title">教室名称：</string>
+
+    <!-- ShowCourseDetailActivity -->
+    <string name="scda_title">课程查询</string>
+
+    <!-- choose_course_server_a -->
+    <string name="ccsa_choose_title">选　　课：</string>
+    <string name="ccsa_main_number_title">主选课号：</string>
+    <string name="ccsa_course_code_title">课程代码：</string>
+    <string name="ccsa_credit_title">学　　分：</string>
+    <string name="ccsa_course_name_title">课程名称：</string>
+    <string name="title_activity_grab_course">GrabCourseActivity</string>
+
+</resources>
